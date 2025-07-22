@@ -1,5 +1,144 @@
 [
   {
+    "id": 0,
+    "name": "Tesla",
+    "rarity": "Legendary",
+    "class": "Special",
+    "faction": "Dark Domain",
+    "manaCost": 3,
+    "synergyTags": ["Copy", "Merge", "Utility"],
+    "gameModes": ["PvP", "Co-op", "Dungeon"],
+    "archetype": "Utility",
+    "pros": "Exceptional scaling with merge ranks, versatile copy mechanics",
+    "cons": "High mana cost, requires strategic positioning",
+    "image": "https://via.placeholder.com/150x150/FFD700/000000?text=Tesla",
+    "base_stats": {
+      "range": "First",
+      "target": "First",
+      "morale": 3
+    },
+    "card_levels": {
+      "7": {
+        "mana_levels": {
+          "1": {
+            "total_damage": 260,
+            "total_charge_damage": 360,
+            "hero_cooldown_percent": 4.0,
+            "merge_ranks": {
+              "1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1033.3 },
+              "2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3266.7 },
+              "3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 6700.0 },
+              "4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 11333.3 },
+              "5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 17166.7 },
+              "6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 24200.0 },
+              "7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 30888.9 }
+            }
+          },
+          "2": {
+            "total_damage": 295,
+            "total_charge_damage": 395,
+            "hero_cooldown_percent": 4.0,
+            "merge_ranks": {
+              "1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1150.0 },
+              "2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3616.7 },
+              "3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 7400.0 },
+              "4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 12500.0 },
+              "5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 18916.7 },
+              "6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 26650.0 },
+              "7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 34000.0 }
+            }
+          },
+          "3": {
+            "total_damage": 330,
+            "total_charge_damage": 430,
+            "hero_cooldown_percent": 4.0,
+            "merge_ranks": {
+              "1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1266.7 },
+              "2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3966.7 },
+              "3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 8100.0 },
+              "4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 13666.7 },
+              "5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 20666.7 },
+              "6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 29100.0 },
+              "7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 37111.1 }
+            }
+          },
+          "4": {
+            "total_damage": 365,
+            "total_charge_damage": 465,
+            "hero_cooldown_percent": 4.0,
+            "merge_ranks": {
+              "1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1383.3 },
+              "2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 4316.7 },
+              "3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 8800.0 },
+              "4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 14833.3 },
+              "5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 22416.7 },
+              "6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 31550.0 },
+              "7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 40222.2 }
+            }
+          },
+          "5": {
+            "total_damage": 400,
+            "total_charge_damage": 500,
+            "hero_cooldown_percent": 4.0,
+            "merge_ranks": {
+              "1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1500.0 },
+              "2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 4666.7 },
+              "3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 9500.0 },
+              "4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 16000.0 },
+              "5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 24166.7 },
+              "6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 34000.0 },
+              "7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 43333.3 }
+            }
+          }
+        }
+      },
+      "8": {
+        "mana_levels": {
+          "1": {
+            "total_damage": 312,
+            "total_charge_damage": 439,
+            "hero_cooldown_percent": 4.5,
+            "merge_ranks": {
+              "1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1251.7 },
+              "2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3966.7 },
+              "3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 8145.0 },
+              "4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 13786.7 },
+              "5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 20891.7 },
+              "6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 29460.0 },
+              "7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 37611.1 }
+            }
+          }
+
+        }
+      },
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": [],
+      "13": [],
+      "14": [],
+      "15": []
+    },
+    "talents": [
+      {
+        "name": "Copy Unit",
+        "description": "When merged, creates a copy of any unit with the same merge rank."
+      },
+      {
+        "name": "Charge Amplification",
+        "description": "Each merge rank increases max charges and reduces attack speed for higher DPS."
+      }
+    ],
+    "description": "A legendary utility unit that creates copies of merged units. Tesla's power scales dramatically with merge ranks, transforming from a single-charge unit to a devastating multi-charge powerhouse with exponentially increasing damage per second.",
+    "scaling_notes": {
+      "damage_scaling": "Base damage increases by ~35 per mana level",
+      "charge_scaling": "Charge damage increases by ~35 per mana level",
+      "merge_scaling": "Each merge rank adds +1 max charge and reduces attack speed for multiplicative DPS gains",
+      "card_level_scaling": "Higher card levels increase hero cooldown reduction and base damage values"
+    }
+  },
+
+  {
     "id": 1,
     "name": "Harlequin",
     "rarity": "Legendary",
