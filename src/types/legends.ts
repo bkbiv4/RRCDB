@@ -18,7 +18,6 @@ export interface Legend {
     image: string;
 
     // ✅ new fields
-    manaCost: number;
     synergyTags: string[];
     gameModes: string[];
     archetype: string;

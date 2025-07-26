@@ -7,7 +7,7 @@ import {factionColors, rarityColors} from "../constants/colors.ts";
 
 export const LegendModal = ({ legend, onClose }: { legend: Legend | null; onClose: () => void }) => {
     if (!legend) return null;
-    const ClassIcon = classIcons[legend.class];
+    const ClassIcon = classIcons[legend.unitType];
     const levels = Object.entries(legend.card_levels).map(([levelStr, lvlData]) => ({
         level: Number(levelStr),
         mana_levels: lvlData.mana_levels
@@ -32,7 +32,7 @@ export const LegendModal = ({ legend, onClose }: { legend: Legend | null; onClos
                                 </span>
                                 <div className="flex items-center space-x-1">
                                     {ClassIcon && <ClassIcon size={16}/>}
-                                    <span className="text-sm font-medium text-gray-900">{legend.class}</span>
+                                    <span className="text-sm font-medium text-gray-900">{legend.unitType}</span>
                                 </div>
                                 <span className="text-sm bg-gray-200 px-2 py-1 rounded">
                                         {/*{legend.manaCost} mana*/}

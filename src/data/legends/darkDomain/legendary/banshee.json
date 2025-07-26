@@ -1,0 +1,36 @@
+{
+	"id": "ddlegban",
+	"name": "Banshee",
+	"rarity": "Legendary",
+	"unitType": "Damage",
+	"faction": "Dark Domain",
+	"synergyTags": ["Copy", "Merge", "Utility"],
+	"gameModes": ["PvP", "Co-op", "Dungeon"],
+	"archetype": "Damage",
+	"pros": "Exceptional scaling with merge ranks, versatile copy mechanics",
+	"cons": "High mana cost, requires strategic positioning",
+	"image": "/images/banshee.png",
+	"base_stats": {
+	"range": "First",
+	"target": "First",
+	"morale": 3
+	},
+	"card_levels":{},
+	"talents": [
+	{
+		"name": "Copy Unit",
+		"description": "When merged, creates a copy of any unit with the same merge rank."
+	},
+	{
+		"name": "Charge Amplification",
+		"description": "Each merge rank increases max charges and reduces attack speed for higher DPS."
+	}
+	],
+	"description": "A legendary utility unit that creates copies of merged units. Tesla's power scales dramatically with merge ranks, transforming from a single-charge unit to a devastating multi-charge powerhouse with exponentially increasing damage per second.",
+	"scaling_notes": {
+		"damage_scaling": "Base damage increases by ~35 per mana level",
+		"charge_scaling": "Charge damage increases by ~35 per mana level",
+		"merge_scaling": "Each merge rank adds +1 max charge and reduces attack speed for multiplicative DPS gains",
+		"card_level_scaling": "Higher card levels increase hero cooldown reduction and base damage values"
+	}
+}

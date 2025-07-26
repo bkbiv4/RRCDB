@@ -1,0 +1,39 @@
+{
+	"id": "ddlegdem",
+	"name": "Demonologist",
+	"rarity": "Legendary",
+	"class": "Special",
+	"faction": "Dark Domain",
+	"synergyTags": ["Merge", "Summon", "Mana"],
+	"gameModes": ["PvP", "Co-op", "Dungeon"],
+	"archetype": "Support",
+	"pros": "Generates large amounts of mana on merge and scales with merge rank",
+	"cons": "One-time effect per merge; weak when merged during boss waves",
+	"image": "http://localhost:5173/images/demonologist.png",
+	"base_stats": {
+		"range": "First",
+		"target": "First",
+		"morale": 4
+	},
+	"card_levels": {},
+	"talents": [
+		{
+			"name": "Summon Monster",
+			"description": "When merged, summons a monster on the opponent’s side (and both sides in Co-op)."
+		},
+		{
+			"name": "Mana Feast",
+			"description": "Grants mana equal to 10 × base monster mana + 8 × base monster mana × merge rank when the summoned monster dies."
+		},
+		{
+			"name": "Orb of Darkness",
+			"description": "25% chance to spawn with an Orb of Darkness: summons an Archdemon that stuns 5 enemies for 5s in PvP and boosts Co-op damage by 30% (Archdemon has 600% monster health)."
+		}
+	],
+	"description": "A legendary special unit that merges to summon mana-generating monsters on the opponent’s side, scaling its mana output massively with merge rank.",
+	"scaling_notes": {
+		"mana_formula": "10 × base monster mana + 8 × base monster mana × merge rank",
+		"coop_scaling": "Summons to both sides in Co-op for double mana",
+		"merge_scaling": "Merge rank multiplies the secondary mana component by its value"
+	}
+}

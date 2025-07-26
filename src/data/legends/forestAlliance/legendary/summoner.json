@@ -1,0 +1,649 @@
+{
+	"id": 1,
+	"name": "Summoner",
+	"rarity": "Legendary",
+	"class": "Support",
+	"faction": "Forest Alliance",
+	"synergyTags": ["Copy", "Merge", "Utility"],
+	"gameModes": ["PvP", "Co-op", "Dungeon"],
+	"archetype": "Damage",
+	"pros": "Exceptional scaling with merge ranks, versatile copy mechanics",
+	"cons": "High mana cost, requires strategic positioning",
+	"image": "http://localhost:5173/images/summoner.png",
+	"base_stats": {
+	"range": "First",
+	"target": "First",
+	"morale": 3
+	},
+	"card_levels": {
+	"7": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 260,
+		"total_charge_damage": 360,
+		"hero_cooldown_percent": 4.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1033.3 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3266.7 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 6700.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 11333.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 17166.7 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 24200.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 30888.9 }
+		}
+		},
+		"2": {
+		"total_damage": 295,
+		"total_charge_damage": 395,
+		"hero_cooldown_percent": 4.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1150.0 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3616.7 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 7400.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 12500.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 18916.7 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 26650.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 34000.0 }
+		}
+		},
+		"3": {
+		"total_damage": 330,
+		"total_charge_damage": 430,
+		"hero_cooldown_percent": 4.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1266.7 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3966.7 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 8100.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 13666.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 20666.7 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 29100.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 37111.1 }
+		}
+		},
+		"4": {
+		"total_damage": 365,
+		"total_charge_damage": 465,
+		"hero_cooldown_percent": 4.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1383.3 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 4316.7 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 8800.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 14833.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 22416.7 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 31550.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 40222.2 }
+		}
+		},
+		"5": {
+		"total_damage": 400,
+		"total_charge_damage": 500,
+		"hero_cooldown_percent": 4.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1500.0 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 4666.7 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 9500.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 16000.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 24166.7 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 34000.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 43333.3 }
+		}
+		}
+		}
+	},
+	"8": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 312,
+		"total_charge_damage": 439,
+		"hero_cooldown_percent": 4.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1251.7 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 3966.7 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 8145.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 13786.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 20891.7 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 29460.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 37611.1 }
+		}
+		}
+
+		}
+	},
+	"9": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 374,
+		"total_charge_damage": 535,
+		"hero_cooldown_percent": 5.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1515.0 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 4813.3 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 9895.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 16760.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 25408.3 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 35840.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 45766.7 }
+		}
+		},
+		"2": {
+		"total_damage": 409,
+		"total_charge_damage": 570,
+		"hero_cooldown_percent": 5.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1631.7 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 5163.3 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 10595.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 17926.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 27158.3 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 38290.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 48877.8 }
+		}
+		},
+		"3": {
+		"total_damage": 444,
+		"total_charge_damage": 605,
+		"hero_cooldown_percent": 5.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1748.3 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 5513.3 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 11295.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 19093.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 28908.3 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 40740.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 51988.9 }
+		}
+		},
+		"4": {
+		"total_damage": 479,
+		"total_charge_damage": 640,
+		"hero_cooldown_percent": 5.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1865.0 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 5863.3 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 11995.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 20260.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 30658.3 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 43190.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 55100.0 }
+		}
+		},
+		"5": {
+		"total_damage": 514,
+		"total_charge_damage": 675,
+		"hero_cooldown_percent": 5.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1981.7 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 6213.3 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 12695.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 21426.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 32408.3 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 45640.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 58211.1 }
+		}
+		}
+		}
+	},
+	"10": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 449.0,
+		"total_charge_damage": 653.0,
+		"hero_cooldown_percent": 5.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1836.7 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 5850.0 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 12040.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 20406.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 30950.0 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 43670.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 55777.8 }
+		}
+		},
+		"2": {
+		"total_damage": 484.0,
+		"total_charge_damage": 688.0,
+		"hero_cooldown_percent": 5.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 1953.3 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 6200.0 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 12740.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 21573.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 32700.0 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 46120.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 58888.9 }
+		}
+		},
+		"3": {
+		"total_damage": 519.0,
+		"total_charge_damage": 723.0,
+		"hero_cooldown_percent": 5.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 2070.0 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 6550.0 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 13440.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 22740.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 34450.0 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 48570.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 62000.0 }
+		}
+		},
+		"4": {
+		"total_damage": 554.0,
+		"total_charge_damage": 758.0,
+		"hero_cooldown_percent": 5.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 2186.7 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 6900.0 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 14140.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 23906.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 36200.0 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 51020.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 65111.1 }
+		}
+		},
+		"5": {
+		"total_damage": 589.0,
+		"total_charge_damage": 793.0,
+		"hero_cooldown_percent": 5.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6, "max_charges": 1, "damage_per_second": 2303.3 },
+			"2": { "attack_speed": 0.3, "max_charges": 2, "damage_per_second": 7250.0 },
+			"3": { "attack_speed": 0.2, "max_charges": 3, "damage_per_second": 14840.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 25073.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 37950.0 },
+			"6": { "attack_speed": 0.1, "max_charges": 6, "damage_per_second": 53470.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 68222.2 }
+		}
+		}
+		}
+	},
+	"11": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 539,
+		"total_charge_damage": 797,
+		"hero_cooldown_percent": 6.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2226.7 },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 7110.0 },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 14650.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 24846.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 37700.0 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 53210.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 67977.8 }
+		}
+		},
+		"2": {
+		"total_damage": 574,
+		"total_charge_damage": 832,
+		"hero_cooldown_percent": 6.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2343.3 },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 7460.0 },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 15350.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 26013.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 39450.0 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 55660.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 71088.9 }
+		}
+		},
+		"3": {
+		"total_damage": 609,
+		"total_charge_damage": 867,
+		"hero_cooldown_percent": 6.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2460.0 },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 7810.0 },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 16050.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 27180.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 41200.0 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 58110.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 74200.0 }
+		}
+		},
+		"4": {
+		"total_damage": 644,
+		"total_charge_damage": 902,
+		"hero_cooldown_percent": 6.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2576.7 },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 8160.0 },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 16750.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 28346.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 42950.0 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 60560.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 77311.1 }
+		}
+		},
+		"5": {
+		"total_damage": 679,
+		"total_charge_damage": 937,
+		"hero_cooldown_percent": 6.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2693.3 },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 8510.0 },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 17450.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 29513.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 44700.0 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 63010.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 80422.2 }
+		}
+		}
+		}
+	},
+	"12": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 647,
+		"total_charge_damage": 973,
+		"hero_cooldown_percent": 6.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2700.0    },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 8643.3  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 17830.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 30260.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 45933.3 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 64850.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 82866.7 }
+		}
+		},
+		"2": {
+		"total_damage": 682,
+		"total_charge_damage": 1008,
+		"hero_cooldown_percent": 6.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2816.7  },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 8993.3  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 18530.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 31426.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 47683.3 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 67300.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 85977.8 }
+		}
+		},
+		"3": {
+		"total_damage": 717,
+		"total_charge_damage": 1043,
+		"hero_cooldown_percent": 6.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 2933.3  },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 9343.3  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 19230.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 32593.3 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 49433.3 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 69750.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 89088.9 }
+		}
+		},
+		"4": {
+		"total_damage": 752,
+		"total_charge_damage": 1078,
+		"hero_cooldown_percent": 6.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3050.0  },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 9693.3  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 19930.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 33760.0 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 51183.3 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 72200.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 92200.0 }
+		}
+		},
+		"5": {
+		"total_damage": 787,
+		"total_charge_damage": 1113,
+		"hero_cooldown_percent": 6.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3166.7  },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 10043.3 },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 20630.0 },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 34926.7 },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 52933.3 },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 74650.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 95311.1 }
+		}
+		}
+		}
+	},
+	"13": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 776,
+		"total_charge_damage": 1187,
+		"hero_cooldown_percent": 7.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3271.7   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 10500.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 21685.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 36826.7  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 55925.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 78980.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 100944.4 }
+		}
+		},
+		"2": {
+		"total_damage": 811,
+		"total_charge_damage": 1222,
+		"hero_cooldown_percent": 7.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3388.3   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 10850.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 22385.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 37993.3  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 57675.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 81430.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 104055.6 }
+		}
+		},
+		"3": {
+		"total_damage": 846,
+		"total_charge_damage": 1257,
+		"hero_cooldown_percent": 7.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3505.0   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 11200.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 23085.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 39160.0  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 59425.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 83880.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 107166.7 }
+		}
+		},
+		"4": {
+		"total_damage": 881,
+		"total_charge_damage": 1292,
+		"hero_cooldown_percent": 7.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3621.7   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 11550.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 23785.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 40326.7  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 61175.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 86330.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 110277.8 }
+		}
+		},
+		"5": {
+		"total_damage": 916,
+		"total_charge_damage": 1327,
+		"hero_cooldown_percent": 7.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3738.3   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 11900.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 24485.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 41493.3  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 62925.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 88780.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 113388.9 }
+		}
+		}
+		}
+	},
+	"14": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 932,
+		"total_charge_damage": 1448,
+		"hero_cooldown_percent": 7.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 3966.7   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 12760.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 26380.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 44826.7  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 68100.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 96200.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 122977.8 }
+		}
+		},
+		"2": {
+		"total_damage": 967,
+		"total_charge_damage": 1483,
+		"hero_cooldown_percent": 7.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 4083.3   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 13110.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 27080.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 45993.3  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 69850.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 98650.0  },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 126088.9 }
+		}
+		},
+		"3": {
+		"total_damage": 1002,
+		"total_charge_damage": 1518,
+		"hero_cooldown_percent": 7.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 4200.0   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 13460.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 27780.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 47160.0  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 71600.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 101100.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 129200.0 }
+		}
+		},
+		"4": {
+		"total_damage": 1037,
+		"total_charge_damage": 1553,
+		"hero_cooldown_percent": 7.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 4316.7   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 13810.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 28480.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 48326.7  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 73350.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 103550.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 132311.1 }
+		}
+		},
+		"5": {
+		"total_damage": 1072,
+		"total_charge_damage": 1588,
+		"hero_cooldown_percent": 7.5,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 4433.3   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 14160.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 29180.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 49493.3  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 75100.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 106000.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 135422.2 }
+		}
+		}
+		}
+	},
+	"15": {
+		"mana_levels": {
+		"1": {
+		"total_damage": 1118,
+		"total_charge_damage": 1766,
+		"hero_cooldown_percent": 8.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 4806.7   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 15500.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 32080.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 54546.7  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 82900.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 117140.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 149777.8 }
+		}
+		},
+		"2": {
+		"total_damage": 1153,
+		"total_charge_damage": 1801,
+		"hero_cooldown_percent": 8.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 4923.3   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 15850.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 32780.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 55713.3  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 84650.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 119590.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 152888.9 }
+		}
+		},
+		"3": {
+		"total_damage": 1188,
+		"total_charge_damage": 1836,
+		"hero_cooldown_percent": 8.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 5040.0   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 16200.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 33480.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 56880.0  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 86400.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 122040.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 156000.0 }
+		}
+		},
+		"4": {
+		"total_damage": 1223,
+		"total_charge_damage": 1871,
+		"hero_cooldown_percent": 8.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 5156.7   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 16550.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 34180.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 58046.7  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 88150.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 124490.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 159111.1 }
+		}
+		},
+		"5": {
+		"total_damage": 1258,
+		"total_charge_damage": 1906,
+		"hero_cooldown_percent": 8.0,
+		"merge_ranks": {
+			"1": { "attack_speed": 0.6,  "max_charges": 1, "damage_per_second": 5273.3   },
+			"2": { "attack_speed": 0.3,  "max_charges": 2, "damage_per_second": 16900.0  },
+			"3": { "attack_speed": 0.2,  "max_charges": 3, "damage_per_second": 34880.0  },
+			"4": { "attack_speed": 0.15, "max_charges": 4, "damage_per_second": 59213.3  },
+			"5": { "attack_speed": 0.12, "max_charges": 5, "damage_per_second": 89900.0  },
+			"6": { "attack_speed": 0.1,  "max_charges": 6, "damage_per_second": 126940.0 },
+			"7": { "attack_speed": 0.09, "max_charges": 7, "damage_per_second": 162222.2 }
+		}
+		}
+		}
+	}
+
+	},
+	"talents": [
+	{
+		"name": "Copy Unit",
+		"description": "When merged, creates a copy of any unit with the same merge rank."
+	},
+	{
+		"name": "Charge Amplification",
+		"description": "Each merge rank increases max charges and reduces attack speed for higher DPS."
+	}
+	],
+	"description": "A legendary utility unit that creates copies of merged units. Tesla's power scales dramatically with merge ranks, transforming from a single-charge unit to a devastating multi-charge powerhouse with exponentially increasing damage per second.",
+	"scaling_notes": {
+"damage_scaling": "Base damage increases by ~35 per mana level",
+"charge_scaling": "Charge damage increases by ~35 per mana level",
+"merge_scaling": "Each merge rank adds +1 max charge and reduces attack speed for multiplicative DPS gains",
+"card_level_scaling": "Higher card levels increase hero cooldown reduction and base damage values"
+}
+}

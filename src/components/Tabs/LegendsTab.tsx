@@ -97,7 +97,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                                     </h3>
                                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                                         {legends.map(legend => {
-                                            const ClassIcon = classIcons[legend.class];
+                                            const ClassIcon = classIcons[legend.unitType];
                                             return (
                                                 <div key={legend.id}
                                                      className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:border-yellow-400/50 transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-yellow-400/20 transform hover:scale-105"
@@ -119,7 +119,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                                                         </div>
                                                         <div className="flex justify-between">
                                                             <span>Class:</span>
-                                                            <span className="text-white">{legend.class}</span>
+                                                            <span className="text-white">{legend.unitType}</span>
                                                         </div>
                                                         <div className="flex justify-between">
                                                             <span>Levels:</span>

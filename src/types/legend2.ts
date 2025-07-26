@@ -1,6 +1,6 @@
 export type Rarity = "Legendary" | "Epic" | "Rare" | "Common";
 
-export type CardClass = "Damage" | "Support" | "Debuff" | "Special";
+export type UnitType = "Damage" | "Support" | "Debuff" | "Special";
 
 export type Faction =
     | "Forest Alliance"
@@ -38,7 +38,7 @@ export interface Legend {
     id: number;
     name: string;
     rarity: Rarity;
-    class: CardClass;
+    unitType: UnitType;
     faction: Faction;
     image: string;
 
