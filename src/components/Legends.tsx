@@ -1,10 +1,10 @@
 import {rushRoyaleLegends, useFilteredCards} from "../utils/utils.ts";
-import type {Legend} from "../types/legends.ts";
+import type {Legend} from "../types/legend2.ts";
 
 
 export const rarityOrder = ['Legendary', 'Epic', 'Rare', 'Common'];
 export const factions = [...new Set(rushRoyaleLegends.map(legend => legend.faction))];
-export const gameModes = ['All', 'PvP', 'Co-op', 'Dungeon', 'Event'];
+export const gameModes = ['PvP', 'Co-op', 'Dungeon', 'Event'];
 
 export type Rarity = "Legendary" | "Epic" | "Rare" | "Common";
 export type Faction =

@@ -78,11 +78,10 @@ export const ComparisonTab = () => {
                             {selectedComparisonCards.map(legend => (
                                 <tr key={legend.name} className="border-t border-white/20">
                                     <td className="p-3 font-medium text-white">{legend.name}</td>
-                                    <td className="p-3 text-center text-white">{legend.base_stats.damage}</td>
-                                    <td className="p-3 text-center text-white">{legend.base_stats.attack_speed}</td>
-                                    <td className="p-3 text-center text-white">{legend.manaCost}</td>
+                                    {/*<td className="p-3 text-center text-white">{legend.base_stats.damage}</td>*/}
+                                    {/*<td className="p-3 text-center text-white">{legend.base_stats.attack_speed}</td>*/}
                                     <td className="p-3 text-center text-white">
-                                        {legend.levels?.[0]?.mana_efficiency?.toFixed(1) || 'N/A'}
+                                        {/*{legend.card_levels?.[0]?.mana_efficiency?.toFixed(1) || 'N/A'}*/}
                                     </td>
                                     <td className="p-3 text-center text-white">{legend.archetype}</td>
                                     <td className="p-3 text-white text-xs">{legend.pros}</td>

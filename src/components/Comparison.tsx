@@ -1,6 +1,6 @@
 
 // Legend comparison state
-import type {Legend} from "../types/legends.ts";
+import type {Legend} from "../types/legend2.ts";
 import {useSelectedComparisonCards, useSelectedPage} from "../hooks/utilityHooks.ts";
 
 export function useComparisons() {

@@ -2,20 +2,24 @@ import {Search} from "lucide-react";
 import {factions, gameModes, useGroupedLegends, rarityOrder} from "../Legends";
 import {rarityColors} from "../../constants/colors.ts";
 import {classIcons} from "../../constants/icons.ts";
-import {useSearchTerm, useSelectedFaction, useSelectedGameMode, useSelectedRarity} from "../../hooks/utilityHooks.ts";
-import type {Legend} from "../../types/legends.ts";
+import { useLegendFilters } from "../../hooks/legendFiltersContext";
+import type {Legend} from "../../types/legend2.ts";
 
 
 
 export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: Legend) => void; }) => {
 
-
     const groupedLegends = useGroupedLegends();
-    const [searchTerm, setSearchTerm] = useSearchTerm();
-    const [selectedRarity, setSelectedRarity] = useSelectedRarity();
-    const [selectedFaction, setSelectedFaction] = useSelectedFaction();
-    const [selectedGameMode, setSelectedGameMode] = useSelectedGameMode();
-
+    const {
+        searchTerm,
+        setSearchTerm,
+        selectedRarity,
+        setSelectedRarity,
+        selectedFaction,
+        setSelectedFaction,
+        selectedGameMode,
+        setSelectedGameMode,
+    } = useLegendFilters();
 
     return (
         <div className="space-y-8">
@@ -60,6 +64,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                         value={selectedGameMode}
                         onChange={(e) => setSelectedGameMode(e.target.value)}
                     >
+                        <option value="All">All Game Modes</option>
                         {gameModes.map(mode => (
                             <option key={mode} value={mode}>{mode}</option>
                         ))}
@@ -90,8 +95,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                                     <h3 className="text-lg font-semibold mb-3 text-gray-200">
                                         {faction} ({legends.length} legends)
                                     </h3>
-                                    <div
-                                        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                                         {legends.map(legend => {
                                             const ClassIcon = classIcons[legend.class];
                                             return (
@@ -99,6 +103,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                                                      className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20 hover:border-yellow-400/50 transition-all duration-300 cursor-pointer hover:shadow-lg hover:shadow-yellow-400/20 transform hover:scale-105"
                                                      onClick={() => setSelectedLegend(legend)}
                                                 >
+                                                    <img src={legend.image} alt="Icon Missing" className="w-2/5 aspect-square object-cover rounded-md mb-3 mx-auto"/>
                                                     <div className="flex items-start justify-between mb-3">
                                                         <h4 className="font-semibold text-white truncate">{legend.name}</h4>
                                                         <div className="flex items-center space-x-1">
@@ -110,8 +115,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                                                     <div className="space-y-2 text-sm text-gray-300">
                                                         <div className="flex justify-between">
                                                             <span>Damage:</span>
-                                                            <span
-                                                                className="text-white font-semibold">{legend.base_stats.damage}</span>
+                                                            {/*<span className="text-white font-semibold">{legend.base_stats.damage}</span>*/}
                                                         </div>
                                                         <div className="flex justify-between">
                                                             <span>Class:</span>
@@ -119,8 +123,7 @@ export const LegendsTab = ({setSelectedLegend,}: { setSelectedLegend: (legend: L
                                                         </div>
                                                         <div className="flex justify-between">
                                                             <span>Levels:</span>
-                                                            <span
-                                                                className="text-yellow-300 font-semibold">{legend.levels.length}</span>
+                                                            <span className="text-yellow-300 font-semibold">{Object.keys(legend.card_levels).length}</span>
                                                         </div>
                                                     </div>
 

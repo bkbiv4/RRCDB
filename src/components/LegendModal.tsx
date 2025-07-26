@@ -1,4 +1,4 @@
-import type { Legend } from "../types/legends.ts";
+import type { Legend } from "../types/legend2.ts";
 import {X} from "lucide-react";
 
 import { classIcons } from "../constants/icons.ts"
@@ -8,6 +8,10 @@ import {factionColors, rarityColors} from "../constants/colors.ts";
 export const LegendModal = ({ legend, onClose }: { legend: Legend | null; onClose: () => void }) => {
     if (!legend) return null;
     const ClassIcon = classIcons[legend.class];
+    const levels = Object.entries(legend.card_levels).map(([levelStr, lvlData]) => ({
+        level: Number(levelStr),
+        mana_levels: lvlData.mana_levels
+    })).sort((a,b) => a.level - b.level)
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
@@ -23,17 +27,16 @@ export const LegendModal = ({ legend, onClose }: { legend: Legend | null; onClos
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                         <div className="space-y-4">
                             <div className="flex items-center space-x-2">
-                                    <span
-                                        className={`px-3 py-1 rounded-full text-white text-sm font-semibold ${rarityColors[legend.rarity]}`}>
-                                        {legend.rarity}
-                                    </span>
+                                <span className={`px-3 py-1 rounded-full text-white text-sm font-semibold ${rarityColors[legend.rarity]}`}>
+                                    {legend.rarity}
+                                </span>
                                 <div className="flex items-center space-x-1">
                                     {ClassIcon && <ClassIcon size={16}/>}
                                     <span className="text-sm font-medium text-gray-900">{legend.class}</span>
                                 </div>
                                 <span className="text-sm bg-gray-200 px-2 py-1 rounded">
-                                        {legend.manaCost} mana
-                                    </span>
+                                        {/*{legend.manaCost} mana*/}
+                                </span>
                             </div>
 
                             <div className={`p-3 rounded-lg border-2 ${factionColors[legend.faction]}`}>
@@ -43,17 +46,18 @@ export const LegendModal = ({ legend, onClose }: { legend: Legend | null; onClos
                             <div className="bg-gray-50 p-4 rounded-lg">
                                 <h3 className="font-semibold mb-2 text-gray-900">Base Stats</h3>
                                 <div className="grid grid-cols-2 gap-2 text-sm text-gray-700">
-                                    <div>Damage: <span className="font-semibold">{legend.base_stats.damage}</span>
+                                    <div>Damage:
+                                        {/*<span className="font-semibold">{legend.base_stats.damage}</span>*/}
                                     </div>
-                                    <div>Speed: <span
-                                        className="font-semibold">{legend.base_stats.attack_speed}</span></div>
+                                    <div>Speed:
+                                        {/*<span className="font-semibold">{legend.base_stats.attack_speed}</span>*/}
+                                    </div>
                                     <div>Range: <span className="font-semibold">{legend.base_stats.range}</span>
                                     </div>
                                     <div>Target: <span className="font-semibold">{legend.base_stats.target}</span>
                                     </div>
                                     {legend.base_stats.morale && (
-                                        <div>Morale: <span
-                                            className="font-semibold">{legend.base_stats.morale}</span></div>
+                                        <div>Morale: <span className="font-semibold">{legend.base_stats.morale}</span></div>
                                     )}
                                 </div>
                             </div>
@@ -86,19 +90,19 @@ export const LegendModal = ({ legend, onClose }: { legend: Legend | null; onClos
                                 <p className="text-sm text-gray-700">{legend.description}</p>
                             </div>
 
-                            {legend.levels && legend.levels.length > 0 && (
+                            {levels.length > 0 && (
                                 <div className="bg-yellow-50 p-4 rounded-lg">
                                     <h3 className="font-semibold mb-2 text-red-500">Level Progression</h3>
                                     <div className="max-h-40 overflow-y-auto">
                                         <div className="grid grid-cols-1 gap-1 text-xs">
-                                            {legend.levels.slice(0, 9).map((level, idx) => (
+                                            {levels.slice(0, 9).map((level, idx) => (
                                                 <div key={idx} className="flex justify-between bg-white p-2 rounded">
                                                     <span className="font-medium text-red-500">Lv {level.level}:</span>
                                                     <span className="text-gray-600">
-                                                            DMG: {level.damage}
-                                                        {level.mana_efficiency && ` | Eff: ${level.mana_efficiency}`}
-                                                        {level.morale && ` | Morale: ${level.morale}`}
-                                                        </span>
+                                                        DMG: {level.mana_levels["1"].total_damage}
+                                                        {/*{level.mana_efficiency && ` | Eff: ${level.mana_efficiency}`}*/}
+                                                        {/*{level.morale && ` | Morale: ${level.morale}`}*/}
+                                                    </span>
                                                 </div>
                                             ))}
                                         </div>

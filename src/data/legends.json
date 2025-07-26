@@ -684,7 +684,6 @@
     "talents": [{ "name": "Versatile Merge", "description": "Can merge with any other unit of same rank." }],
     "description": "Can merge with any other unit of the same rank."
   },
-
   {
     "id": 25,
     "name": "Reaper",

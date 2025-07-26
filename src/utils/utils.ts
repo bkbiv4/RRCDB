@@ -1,15 +1,23 @@
-import legendData from "../data/legends.json";
-import type {Legend} from "../types/legends.ts";
-import {useSearchTerm, useSelectedFaction, useSelectedGameMode, useSelectedRarity} from "../hooks/utilityHooks.ts";
+import type {Legend} from "../types/legend2.ts";
 
+const legendModules = import.meta.glob<{ default: Legend}>(
+    "../data/legends/*/*/*.json",
+    { eager: true}
+)
 
-export const rushRoyaleLegends = legendData as Legend[];
+export const rushRoyaleLegends: Legend[] = Object.values(legendModules).map(
+    (mod) => mod.default
+)
+
+import {useLegendFilters} from "../hooks/legendFiltersContext.tsx";
 
 export function useFilteredCards(): Legend[] {
-    const [searchTerm] = useSearchTerm();
-    const [selectedRarity] = useSelectedRarity();
-    const [selectedFaction] = useSelectedFaction();
-    const [selectedGameMode] = useSelectedGameMode();
+    const {
+        searchTerm,
+        selectedRarity,
+        selectedFaction,
+        selectedGameMode
+    } = useLegendFilters();
 
     return rushRoyaleLegends.filter(legend => {
         const matchesSearch = legend.name.toLowerCase().includes(searchTerm.toLowerCase());

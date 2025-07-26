@@ -1,21 +1,7 @@
 import {useState} from "react";
-import type {Legend} from "../types/legends.ts";
+import type {Legend} from "../types/legend2.ts";
 
-export function useSearchTerm() {
-    return useState('');
-}
-
-export function useSelectedRarity() {
-    return useState('All');
-}
-
-export function useSelectedFaction() {
-    return useState('All');
-}
-
-export function useSelectedGameMode() {
-    return useState('All');
-}
+// import { useLegendFilters } from "../hooks/LegendFiltersContext";
 
 export function useSelectedLegend() {
     return useState<Legend | null>(null);
